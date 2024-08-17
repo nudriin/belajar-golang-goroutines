@@ -7,6 +7,7 @@ import (
 	"time"
 )
 
+// ! Seperti setTimeout di js
 func TestTimer(t *testing.T) {
 	timer := time.NewTimer(5 * time.Second)
 	fmt.Println(time.Now()) // di print duluan
